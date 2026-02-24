@@ -1,80 +1,36 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Rooster Grin Media",
+  "domain": "roostergrin.com",
+  "email": "info@roostergrin.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "415-528-2520",
+    "href": "tel:+14155282520",
+    "aria": "4 1 5, 5 2 8, 2 5 2 0"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "",
       "address": {
-        "street": "9650 Main Street",
-        "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "street": "575 Sutter St.",
+        "suite": "Suite 503",
+        "city_state": "San Francisco, CA 94102",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-122.4096941",
+          "latitude": "37.7888261"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "415-528-2520",
+        "href": "tel:+14155282520"
       },
-      "email": "info@mandtortho.com",
-      "hours": [
-        {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
-        },
-        {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
-        },
-        {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
-        },
-        {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
-        }
-      ],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "Get Directions"
-      },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
+      "email": "info@roostergrin.com",
       "hours": [],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/search/?api=1&query=575+Sutter+St.+Suite+503+San+Francisco+CA+94102",
         "label": "Get Directions"
       },
-      "special_note": ""
+      "special_note": "Office hours are available by appointment. Call or schedule online to confirm availability."
     }
   ],
   "typography": [
@@ -94,28 +50,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
-        "new_window": true
+        "icon": "phone",
+        "text": "415-528-2520",
+        "href": "tel:+14155282520",
+        "label": "Call 4 1 5. 5 2 8. 2 5 2 0.",
+        "new_window": false
       },
       {
-        "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "icon": "envelope",
+        "text": "info@roostergrin.com",
+        "href": "mailto:info@roostergrin.com",
+        "label": "Email Rooster Grin Media",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "COVID 19 update",
+      "text": "Click for our COVID-19 policies and how we support remote onboarding and teleconsults.",
+      "mobile_text": "COVID-19 Update",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "COVID-19 Update",
+        "text": "We follow current public health guidance and offer remote onboarding and digital forms to minimize in-office time."
       }
     }
   },
@@ -124,15 +80,15 @@
     "buttons": [
       {
         "button": {
-          "type": "nuxt",
+          "type": "anchor",
           "style": "primary",
           "label": "Schedule Consultation",
           "aria_label": "Schedule a consultation",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": true,
+          "href": "https://calendly.com/chad-roostergrin",
+          "path": "",
+          "hash": "",
+          "external": true,
+          "include_icon": false,
           "icon": "tooth-two-v2",
           "color": "primary"
         }
@@ -150,15 +106,15 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-        "icon": "youtube"
+        "href": "https://www.instagram.com/roostergrinmedia/",
+        "icon": "instagram"
       }
     ],
     "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Rooster Grin Media",
     "text": "",
     "image": {
       "src": "",
